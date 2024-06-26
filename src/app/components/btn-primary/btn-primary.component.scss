@@ -1,0 +1,38 @@
+@import "../../../color-variables.scss";
+
+.btn{
+
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 20px 40px;
+
+    &:disabled{
+        opacity: 0.6;
+
+    }
+    &:primary{
+
+        color: #fff;
+        background-color: $primary-color;
+        font-size: 24px;
+        font-weight: bold;
+        
+
+    }
+    &:secundary{
+
+        color: #000;
+        background-color: #fff;
+        font-size: 16px;
+        
+
+    }
+
+}
+.explore-course{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
